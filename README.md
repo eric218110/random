@@ -10,4 +10,4 @@
 
 > 4 - Enviar link no fórum com o projeto criado.
 
-github - eric28110
+[More projects](https://github.com/eric218110/).
