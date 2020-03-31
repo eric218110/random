@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#content {
+    width: 50%;
+    margin: 6% auto;
+}
+
+#header {
+    background-color: #0E103D;
+    color: #fff;
+    padding: 2%;
+}
+
+#header-content {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding: 10px;
+}
+
+#header-content h1 {
+    font-size: 40px;
+}
+
+#header-content i {
+    margin-left: 3px;
+}
+
+body {
+    background: lightgray;
+}
+
+#form-input {
+    display: flex;
+    flex-flow: 1;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    width: 100%;
+}
+
+#form-input label {
+    font-weight: bolder;
+    color: #0E103D;
+}
+
+input[type='text'] {
+    padding: 0 6px;
+    width: 15rem;
+    height: 30px;
+    outline: none;
+    border: 1px solid #0E103D;
+    border-radius: 10px;
+}
+
+.btn {
+    color: #fff;
+    width: 50%;
+    height: 28px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 0 10px;
+}
+
+.success {
+    background-color: green;
+}
+
+.success:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+.danger {
+    background-color: firebrick;
+}
+
+.danger:hover {
+    background-color: darkred;
+    cursor: pointer;
+}
+
+#btns {
+    margin-top: 3%;
+    display: flex;
+}
+
+.error {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    background-color: darksalmon;
+    color: darkred;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    cursor: help;
+}
+
+.show {
+    display: flex;
+}
+
+.error i {
+    margin-right: 10px;
+}
+
+.result {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 5%;
+}
+
+#result-initial,
+#result-finish {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #0E103D;
+}
+
+#result-random {
+    margin-left: 45%;
+    margin-top: 7%;
+    color: #0E103D;
+    font-weight: bolder;
+    font-size: 100px;
+}
